@@ -9,7 +9,7 @@ $(document).ready(function(){
     $('#article-heading').html(" ");
    $('#article-paragraph').html(" ");
     
-  //    OBAMA SUPER COMPUTER HOME PAGE GENERAL NEWS
+  
 $.getJSON('http://api.npr.org/query?id=1001&meta=inherit&apiKey=MDIwMDA2OTAyMDE0MzgxODI1Mjk2OThmZg001&output=json', function(result) {
            
               var news_title = result.list.story[0].title.$text;
