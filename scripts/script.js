@@ -41,7 +41,7 @@ $.getJSON('http://api.npr.org/query?id=1001&meta=inherit&apiKey=MDIwMDA2OTAyMDE0
    $('#article-heading').html(" ");
    $('#article-paragraph').html(" ");
     
-  $.getJSON('http://api.npr.org/query?id=1003&meta=inherit&apiKey=MDIwMDA2OTAyMDE0MzgxODI1Mjk2OThmZg001&output=json', function(result){
+  $.getJSON('http://api.npr.org/query?id=1014&meta=inherit&apiKey=MDIwMDA2OTAyMDE0MzgxODI1Mjk2OThmZg001&output=json', function(result){
    
     var us_title = result.list.story[0].title.$text;
     var us_author = result.list.story[0].byline[0].name.$text;
